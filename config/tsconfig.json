@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"target": "ESNext",
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		"module": "ESNext",
+		"rootDir": "./src/", // import可能な範囲
+		"baseUrl": "./", // 絶対パスじゃない場合の基準ディレクトリ
+		"declaration": true,
+		"outDir": "./dist/",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true, // strict系すべてtrue
+		"noImplicitAny": true, // 暗黙的なany禁止
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true, // bind call applyの型を厳密にチェック
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true, // thisの暗黙的なany禁止
+		"alwaysStrict": true, // 常にuse strict
+		"skipLibCheck": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["./src/"]
+}

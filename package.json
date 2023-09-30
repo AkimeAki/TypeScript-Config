@@ -3,9 +3,9 @@
 	"version": "1.0.0",
 	"private": true,
 	"type": "module",
-	"main": "./modules/null-to-undefined.js",
+	"main": "./config/tsconfig.json",
 	"files": [
-		"modules"
+		"config"
 	],
 	"engines": {
 		"node": "18.18.0",
