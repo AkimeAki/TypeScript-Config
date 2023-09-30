@@ -6,7 +6,6 @@
 		"jsxImportSource": "react",
 		"module": "ESNext",
 		"declaration": true,
-		"outDir": "./dist/",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true, // strict系すべてtrue
@@ -17,9 +16,6 @@
 		"strictPropertyInitialization": true,
 		"noImplicitThis": true, // thisの暗黙的なany禁止
 		"alwaysStrict": true, // 常にuse strict
-		"skipLibCheck": true,
-		"paths": {
-			"@/*": ["./src/*"]
-		}
+		"skipLibCheck": true
 	}
 }
