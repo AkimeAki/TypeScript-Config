@@ -5,8 +5,6 @@
 		"jsx": "react-jsx",
 		"jsxImportSource": "react",
 		"module": "ESNext",
-		"rootDir": "./src/", // import可能な範囲
-		"baseUrl": "./", // 絶対パスじゃない場合の基準ディレクトリ
 		"declaration": true,
 		"outDir": "./dist/",
 		"esModuleInterop": true,
@@ -23,6 +21,5 @@
 		"paths": {
 			"@/*": ["./src/*"]
 		}
-	},
-	"include": ["./src/"]
+	}
 }
