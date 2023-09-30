@@ -1,0 +1,21 @@
+{
+	"name": "typescript-config",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "./modules/null-to-undefined.js",
+	"files": [
+		"modules"
+	],
+	"engines": {
+		"node": "18.18.0",
+		"npm": "9.8.1"
+	},
+	"scripts": {
+		"format": "prettier --write './**/*.{json,js,cjs,mjs}'"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.3",
+		"prettier-config": "github:AkimeAki/Prettier-Config#1.0.0"
+	}
+}
